@@ -2,7 +2,7 @@ package wethinkcode.cars.v1;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import wethinkcode.cars.v1.Autobahn;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -27,6 +27,7 @@ public class AutobahnTest {
     void doesCountMethodWorkForNonOccuringString(){
         assertEquals( 0, countOccurencesOf( "blah", "kjlashfkjhasdkfhaskfjh" ));
     }
+
 
     private int countOccurencesOf( String wanted, String aString ){
         int start = 0;

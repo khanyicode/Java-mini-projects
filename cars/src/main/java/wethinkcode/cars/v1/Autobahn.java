@@ -22,6 +22,7 @@ public class Autobahn {
         printCarInfo(car7);
         printCarInfo(car8);
         printCarInfo(car9);
+
     }
 
     public static void printCarInfo(Car car) {
@@ -30,5 +31,6 @@ public class Autobahn {
         System.out.println("Year: " + car.getYear());
         System.out.println("Colour: " + car.getColour());
     }
+
 }
 
